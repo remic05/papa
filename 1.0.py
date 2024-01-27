@@ -1,6 +1,7 @@
 #a)
 # Demander a l'utilisateur de chosiir deux nombres , s'assurer que ce soit un nombre
 # Et calculer la moyenne de ses nombres
+nb1 = 1
 
 
 
