@@ -8,7 +8,6 @@
 nb1 = input("Entrer un numéro: ")
 liste = []
 somme = 0
-y = 0
 
 
 if nb1.isnumeric(): #or nb1.isfloat(): trouver un nombre flottant
