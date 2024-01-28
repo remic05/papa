@@ -10,8 +10,16 @@ liste = []
 somme = 0
 y = 0
 
-if nb1.isnumeric() #or nb1.isfloat(): trouver un nombre flottant
+
+if nb1.isnumeric(): #or nb1.isfloat(): trouver un nombre flottant
     nb1 = int(nb1)
+
+#     if nb1.replace('.', '', 1).isdigit():  # Vérifie si la chaîne ne contient que des chiffres et au plus un point
+# Convertir en flottant si la chaîne contient un point
+#    if '.' in nb1:
+#       nb1 = float(nb1)
+#   else:
+#       nb1 = int(nb1)
 
     while len(liste) != 10:
         liste.append(nb1)
