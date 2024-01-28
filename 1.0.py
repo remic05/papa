@@ -10,7 +10,7 @@ liste = []
 somme = 0
 y = 0
 
-if nb1.isnumeric():
+if nb1.isnumeric() #or nb1.isfloat(): trouver un nombre flottant
     nb1 = int(nb1)
 
     while len(liste) != 10:
