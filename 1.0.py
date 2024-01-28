@@ -8,6 +8,7 @@
 nb1 = input("Entrer un numéro: ")
 liste = []
 somme = 0
+y = 0
 
 if nb1.isnumeric():
     nb1 = int(nb1)
@@ -22,7 +23,25 @@ else:
 
 for i in liste:
     print(i)
-    i = liste[i]
+    i = liste[y]
+    y += 1
     somme += i
 
 print(somme)
+
+
+# b.3 cr.ation d,un objet, ajout de 2 caractéristiques
+def crea_robot(modele, carburant):
+    robot = {
+        modele: modele,
+        carburant: carburant,
+    }
+
+    def bruit():
+        print("bip bop")
+        print(modele + carburant)
+
+    return robot
+
+
+rp = crea_robot("rp1", "diesel")
