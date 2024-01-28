@@ -23,8 +23,6 @@ else:
 
 for i in liste:
     print(i)
-    i = liste[y]
-    y += 1
     somme += i
 
 print(somme)
